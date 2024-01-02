@@ -148,3 +148,8 @@ details[open] div ul li details[open] summary span ion-icon {
   @apply flex absolute bg-grid-img z-10 w-full h-full bg-[length:200px_200px] md:bg-[length:400px_300px] bg-[left_-20%_bottom_10%] md:bg-[left_bottom] bg-no-repeat;
   content: "";
 }
+
+.program:hover .program-list {
+  display: flex;
+  background: white;
+}

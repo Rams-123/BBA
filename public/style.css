@@ -630,6 +630,10 @@ video {
   left: 0.5rem;
 }
 
+.left-full{
+  left: 100%;
+}
+
 .right-0{
   right: 0px;
 }
@@ -805,10 +809,6 @@ video {
   display: none;
 }
 
-.aspect-16\/9{
-  aspect-ratio: 960 / 540;
-}
-
 .aspect-\[16\/9\]{
   aspect-ratio: 16/9;
 }
@@ -893,10 +893,6 @@ video {
   height: 450px;
 }
 
-.h-\[50px\]{
-  height: 50px;
-}
-
 .h-auto{
   height: auto;
 }
@@ -970,6 +966,10 @@ video {
   width: 9rem;
 }
 
+.w-4{
+  width: 1rem;
+}
+
 .w-40{
   width: 10rem;
 }
@@ -1020,10 +1020,6 @@ video {
 
 .w-\[210px\]{
   width: 210px;
-}
-
-.w-\[50px\]{
-  width: 50px;
 }
 
 .w-\[90\%\]{
@@ -1708,10 +1704,6 @@ video {
   line-height: 1;
 }
 
-.text-\[12px\]{
-  font-size: 12px;
-}
-
 .text-base{
   font-size: 1rem;
   line-height: 1.5rem;
@@ -2120,6 +2112,15 @@ details[open] div ul li details[open] summary span ion-icon {
   content: "";
 }
 
+.program:hover .program-list {
+  display: flex;
+  background: white;
+}
+
+.hover\:flex:hover{
+  display: flex;
+}
+
 .hover\:-translate-y-2:hover{
   --tw-translate-y: -0.5rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -2449,10 +2450,6 @@ details[open] div ul li details[open] summary span ion-icon {
 }
 
 @media (min-width: 1024px){
-  .lg\:bottom-32{
-    bottom: 8rem;
-  }
-
   .lg\:bottom-5{
     bottom: 1.25rem;
   }
@@ -2469,6 +2466,10 @@ details[open] div ul li details[open] summary span ion-icon {
     grid-column: span 2 / span 2;
   }
 
+  .lg\:col-span-3{
+    grid-column: span 3 / span 3;
+  }
+
   .lg\:mx-auto{
     margin-left: auto;
     margin-right: auto;
@@ -2476,6 +2477,10 @@ details[open] div ul li details[open] summary span ion-icon {
 
   .lg\:mt-24{
     margin-top: 6rem;
+  }
+
+  .lg\:flex{
+    display: flex;
   }
 
   .lg\:grid{
@@ -2539,6 +2544,12 @@ details[open] div ul li details[open] summary span ion-icon {
     gap: 1.75rem;
   }
 
+  .lg\:divide-x > :not([hidden]) ~ :not([hidden]){
+    --tw-divide-x-reverse: 0;
+    border-right-width: calc(1px * var(--tw-divide-x-reverse));
+    border-left-width: calc(1px * calc(1 - var(--tw-divide-x-reverse)));
+  }
+
   .lg\:py-12{
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -2561,10 +2572,6 @@ details[open] div ul li details[open] summary span ion-icon {
 }
 
 @media (min-width: 1280px){
-  .xl\:bottom-20{
-    bottom: 5rem;
-  }
-
   .xl\:grid-cols-4{
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
