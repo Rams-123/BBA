@@ -65,7 +65,7 @@
                                 class="program flex w-full cursor-pointer transition-all rounded-md text-gray-700 hover:bg-brand-red hover:text-white ">
                                 <span class="flex w-full px-5 py-3">Under Graduate</span>
                                 <ul
-                                    class="program-list hidden hover:flex flex-col w-80 rounded-md absolute left-full shadow-md">
+                                    class="program-list hidden hover:flex divide-y flex-col w-80 rounded-md absolute left-full shadow-md">
                                     <li
                                         class="flex w-full cursor-pointer transition-all rounded-md text-gray-700 hover:bg-brand-red hover:text-white ">
                                         <span onclick="window.location.href ='#'" class="flex w-full px-5 py-3">
@@ -84,7 +84,7 @@
                                 class="program flex w-full cursor-pointer transition-all rounded-md text-gray-700 hover:bg-brand-red hover:text-white ">
                                 <span class="flex w-full px-5 py-3">Post Graduate</span>
                                 <ul
-                                    class="program-list hidden hover:flex flex-col w-80 rounded-md absolute left-full shadow-md">
+                                    class="program-list hidden hover:flex divide-y flex-col w-80 rounded-md absolute left-full shadow-md">
                                     <li
                                         class="flex w-full cursor-pointer transition-all rounded-md text-gray-700 hover:bg-brand-red hover:text-white ">
                                         <span onclick="window.location.href ='https://www.itm.edu/mba-in-marketing/'"
@@ -633,7 +633,7 @@
         </div>
     </header>
 
-    <main class="flex w-full flex-col mx-auto mt-16  md:mt-20 lg:mt-24">
+    <main class="flex w-full flex-col mx-auto ">
 
         <div class="flex fixed md:hidden z-20 bottom-0 w-full mx-auto bg-white enquire-btn">
             <button
@@ -641,65 +641,69 @@
                 onclick="openModal()">Enquire Now</button>
         </div>
 
-        <section id="hero" class="flex w-full">
-            <div
-                class="flex w-full max-w-full h-screen max-h-[700px]  mx-auto bg-hero-img1  bg-cover bg-[center_left_20%] bg-no-repeat">
-                <div class="flex w-full bg-secondary bg-opacity-30">
+        <section id="Hero" class="flex w-full">
+            <div class="flex w-full h-screen lg:max-h-[900px]  mx-auto pt-16 lg:pt-24">
+                <div
+                    class="flex w-full h-full bg-bbaittm-mob-hero-img bg-[length:auto_60%] lg:bg-bbaittm-desk-hero-img lg:bg-[length:auto_100%] bg-no-repeat bg-bottom lg:bg-[bottom_center]">
                     <div
-                        class="grid relative grid-cols-1 md:grid-cols-2 w-full max-w-7xl mx-auto h-full py-10 md:py-24 ">
-                        <div class="flex relative flex-col w-full h-full md:gap-5 md:items-start md:justify-center">
-                            <div class="flex gap-3 md:gap-5 w-full px-5 ">
-                                <span class="flex w-2 h-auto rounded-md bg-brand-red"></span>
-                                <div class="flex flex-col gap-2 w-full h-auto">
-                                    <h1
-                                        class="font-extrabold  text-3xl md:text-4xl lg:text-4xl+   block gap-2 w-full text-white ">
-                                        <span class="">Join Our </span>
-                                        <span class="flex flex-nowrap w-full">Financial Services Program</span>
-                                        <span class="typed-text2"></span>
-                                        <span class="cursor1">&nbsp;</span>
-                                    </h1>
+                        class="grid grid-cols-1 lg:grid-cols-2  w-full max-w-7xl mx-auto px-5 py-5 lg:py-10 items-start justify-center">
+                        <div
+                            class="flex flex-col gap-5 w-full h-full md:items-center md:justify-center lg:items-start lg:justify-center">
+                            <div
+                                class="flex flex-col w-full md:w-fit gap-5 lg:gap-8 h-1/2 lg:h-fit items-start justify-start">
+                                <div class="flex w-full h-auto gap-3">
+                                    <div class="flex h-auto w-full">
+                                        <h1
+                                            class="flex flex-col h-fit font-sans text-3xl md:text-4xl lg:text-5xl+ xl:text-6xl font-bold lg:font-extrabold text-center lg:text-left  w-full">
+                                            <span class="text-brand-red rand-red text-3xl">Bachelors in Business Administration</span>
+                                            <span class="">International Travel & </span>
+                                            <span class="">Tourism Management</span>
+                                        </h1>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col w-full gap-2">
+                                    <p class="text-center lg:text-left max-w-lg ">
+                                        Pursue your Passion with ITM Vocational University
+                                    </p>
                                 </div>
                             </div>
                             <div
-                                class="flex flex-col absolute md:relative bottom-20 md:bottom-0 px-5 gap-5 h-fit w-full text-white">
-                                <div class="flex flex-col w-full gap-2">
-                                    <div class="flex text-lg w-fit rounded-md">
-                                        <span class="flex font-bold text-white">#IamITM</span>
-                                    </div>
-                                    <p class="flex text-base md:text-lg uppercase ">Learn from the best, To be your best
-                                    </p>
-                                </div>
-                                <div class="flex w-full flex-col gap-3">
-                                    <span
-                                        class="inline-flex items-center rounded-md bg-pink-50 px-5 w-fit py-2 text-sm font-semibold text-pink-700 ring-1 ring-inset ring-pink-700/10">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                            class="w-5 h-5 ">
-                                            <path fill-rule="evenodd"
-                                                d="M9 4.5a.75.75 0 01.721.544l.813 2.846a3.75 3.75 0 002.576 2.576l2.846.813a.75.75 0 010 1.442l-2.846.813a3.75 3.75 0 00-2.576 2.576l-.813 2.846a.75.75 0 01-1.442 0l-.813-2.846a3.75 3.75 0 00-2.576-2.576l-2.846-.813a.75.75 0 010-1.442l2.846-.813A3.75 3.75 0 007.466 7.89l.813-2.846A.75.75 0 019 4.5zM18 1.5a.75.75 0 01.728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 010 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 01-1.456 0l-.258-1.036a2.625 2.625 0 00-1.91-1.91l-1.036-.258a.75.75 0 010-1.456l1.036-.258a2.625 2.625 0 001.91-1.91l.258-1.036A.75.75 0 0118 1.5zM16.5 15a.75.75 0 01.712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 010 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 01-1.422 0l-.395-1.183a1.5 1.5 0 00-.948-.948l-1.183-.395a.75.75 0 010-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0116.5 15z"
-                                                clip-rule="evenodd" />
-                                        </svg> &nbsp; Admission Open For BBA 𝒊-Connect
-                                    </span>
-                                    <div class="flex w-fit bg-white rounded-md">
-                                        <button onclick="openModal()"
-                                            class="shimmer-effect2 bg-brand-red text-white flex flex-nowrap px-8 py-2 font-normal  text-lg  rounded-md">Enquire
-                                            Now</button>
-                                    </div>
+                                class="flex w-full flex-col items-center justify-center lg:items-start gap-3 h-1/2 lg:h-fit">
+                                <span
+                                    class="inline-flex items-center rounded-md bg-pink-50 px-5 w-fit py-2 text-base font-bold text-pink-700 ring-1 ring-inset ring-pink-700/10">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                        class="w-5 h-5 ">
+                                        <path fill-rule="evenodd"
+                                            d="M9 4.5a.75.75 0 01.721.544l.813 2.846a3.75 3.75 0 002.576 2.576l2.846.813a.75.75 0 010 1.442l-2.846.813a3.75 3.75 0 00-2.576 2.576l-.813 2.846a.75.75 0 01-1.442 0l-.813-2.846a3.75 3.75 0 00-2.576-2.576l-2.846-.813a.75.75 0 010-1.442l2.846-.813A3.75 3.75 0 007.466 7.89l.813-2.846A.75.75 0 019 4.5zM18 1.5a.75.75 0 01.728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 010 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 01-1.456 0l-.258-1.036a2.625 2.625 0 00-1.91-1.91l-1.036-.258a.75.75 0 010-1.456l1.036-.258a2.625 2.625 0 001.91-1.91l.258-1.036A.75.75 0 0118 1.5zM16.5 15a.75.75 0 01.712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 010 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 01-1.422 0l-.395-1.183a1.5 1.5 0 00-.948-.948l-1.183-.395a.75.75 0 010-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0116.5 15z"
+                                            clip-rule="evenodd" />
+                                    </svg> &nbsp; Admission Open For 2023-24
+                                </span>
+                                <div
+                                    class="flex flex-col lg:flex-row w-full gap-3 items-center justify-center lg:items-start lg:justify-start">
+                                    <button onclick="openModal()"
+                                        class="shimmer-effect2 bg-brand-red text-white hidden lg:flex flex-nowrap px-8 py-2 font-normal w-fit  text-lg  rounded-md">Enquire
+                                        Now</button>
+                                    <button onclick="openModal1()"
+                                        class="shimmer-effect2 bg-brand-red text-white flex flex-nowrap px-8 py-2 font-normal w-fit  text-lg  rounded-md">Download
+                                        Brochure</button>
                                 </div>
                             </div>
                         </div>
-                        <div class="hidden md:flex flex-col gap-5 w-full  items-end justify-start">
+                        <div class="hidden xl:flex">
+
+                        </div>
+                        <div class="hidden flex-col h-full w-full items-end justify-center">
                             <div
-                                class="flex w-full h-auto max-w-sm  md:px-5 items-center  justify-center flex-col bg-brand-gray rounded-md">
-                                <div class="flex w-full py-4">
+                                class="flex w-full h-fit max-w-xs mx-auto  items-center justify-end lg:mx-0 flex-col bg-brand-gray rounded-md">
+                                <div class="flex w-full py-2">
                                     <h2 class="flex w-full text-center font-bold text-xl items-center justify-center">
-                                        The
-                                        Next
-                                        Chapter
-                                        Starts Here</h2>
+                                        Enquire Now</h2>
                                 </div>
                                 <div class="flex w-full h-[450px] items-center justify-center">
-                                    <div class="npf_wgts" data-height="450px" data-w="6840a00176cf0244be6ff1b0825a05fa">
-                                    </div>
+                                    <iframe name="NPF"
+                                        src="https://www.itm.edu/NPF-Website-Form/vadodaranpfwidgets.html?utm_source=Web&utm_medium=Web&utm_campaign=ITM%20Website"
+                                        frameborder="0" marginwidth="0" marginheight="0" scrolling="no"
+                                        class=""></iframe>
                                 </div>
                             </div>
                         </div>
@@ -1325,89 +1329,7 @@
                         </p>
                         <div
                             class="flex card-scroll h-auto items-center justify-between overflow-x-auto overflow-y-hidden  w-full">
-                            <!-- <ul class="flex h-full items-stretch gap-3 md:w-full  py-3 justify-around  ">
-                                <li
-                                    class="transition-delay flex  flex-col h-full w-[140px] text-brand-red cursor-pointer  items-center justify-center sm:max-w-xs group transition-all ">
-                                    <div class="flex  w-full font-bold group-hover:shadow-md">
-                                        <div
-                                            class="flex flex-col w-full bg-white p-2  border border-gray-300 rounded-md ">
-                                            <strong class="flex text-lg justify-center">100%</strong>
-                                            <span class="flex text-base justify-center">Scholarship</span>
-                                        </div>
-                                    </div>
-                                    <div class="flex">
-                                        <div class="w-1 h-4 bg-gray-300"></div>
-                                    </div>
-                                    <div class="flex  w-full  font-bold group-hover:shadow-md">
-                                        <div
-                                            class="flex flex-col w-full bg-white p-2 border border-gray-300 rounded-md">
-                                            <strong class="flex text-lg justify-center">10</strong>
-                                            <span class="flex text-base justify-center">Student</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li
-                                    class="transition-delay flex  flex-col h-full w-[140px] text-brand-red cursor-pointer  items-center justify-center sm:max-w-xs group transition-all ">
-                                    <div class="flex  w-full font-bold group-hover:shadow-md">
-                                        <div
-                                            class="flex flex-col w-full bg-white p-2  border border-gray-300 rounded-md ">
-                                            <strong class="flex text-lg justify-center">50%</strong>
-                                            <span class="flex text-base justify-center">Scholarship</span>
-                                        </div>
-                                    </div>
-                                    <div class="flex">
-                                        <div class="w-1 h-4 bg-gray-300"></div>
-                                    </div>
-                                    <div class="flex  w-full  font-bold group-hover:shadow-md">
-                                        <div
-                                            class="flex flex-col w-full bg-white p-2 border border-gray-300 rounded-md">
-                                            <strong class="flex text-lg justify-center">15</strong>
-                                            <span class="flex text-base justify-center">Student</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li
-                                    class="transition-delay flex  flex-col h-full w-[140px] text-brand-red cursor-pointer  items-center justify-center sm:max-w-xs group transition-all ">
-                                    <div class="flex  w-full font-bold group-hover:shadow-md">
-                                        <div
-                                            class="flex flex-col w-full bg-white p-2  border border-gray-300 rounded-md ">
-                                            <strong class="flex text-lg justify-center">25%</strong>
-                                            <span class="flex text-base justify-center">Scholarship</span>
-                                        </div>
-                                    </div>
-                                    <div class="flex">
-                                        <div class="w-1 h-4 bg-gray-300"></div>
-                                    </div>
-                                    <div class="flex  w-full  font-bold group-hover:shadow-md">
-                                        <div
-                                            class="flex flex-col w-full bg-white p-2 border border-gray-300 rounded-md">
-                                            <strong class="flex text-lg justify-center">30</strong>
-                                            <span class="flex text-base justify-center">Student</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li
-                                    class="transition-delay flex  flex-col h-full w-[140px] text-brand-red cursor-pointer  items-center justify-center sm:max-w-xs group transition-all ">
-                                    <div class="flex  w-full font-bold group-hover:shadow-md">
-                                        <div
-                                            class="flex flex-col w-full bg-white p-2  border border-gray-300 rounded-md ">
-                                            <strong class="flex text-lg justify-center">10%</strong>
-                                            <span class="flex text-base justify-center">Scholarship</span>
-                                        </div>
-                                    </div>
-                                    <div class="flex">
-                                        <div class="w-1 h-4 bg-gray-300"></div>
-                                    </div>
-                                    <div class="flex  w-full  font-bold group-hover:shadow-md">
-                                        <div
-                                            class="flex flex-col w-full bg-white p-2 border border-gray-300 rounded-md">
-                                            <strong class="flex text-lg justify-center">100</strong>
-                                            <span class="flex text-base justify-center">Student</span>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul> -->
-
+                  
                             <ul class="flex h-full items-stretch gap-3 md:gap-1 md:w-full py-3 justify-around  ">
                                 <li
                                     class="transition-delay flex py-2 w-72 md:w-52 bg-white border border-gray-300  transition-all  h-auto  rounded-md items-center justify-center md:items-start max-w-xs ">
@@ -1513,7 +1435,7 @@
                 <div class="card-scroll flex w-full overflow-x-scroll md:grid-cols-2 md:overflow-x-hidden">
                     <ul
                         class="flex w-auto gap-3 md:mx-auto md:grid md:w-fit md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-                        <li class="flex w-80 max-w-xs flex-col gap-3 divide-y rounded-md border border-gray-300 p-5">
+                        <li class="flex w-80 max-w-xs xl:w-full flex-col gap-3 divide-y rounded-md border border-gray-300 p-5">
                             <div class="flex w-full items-center justify-center gap-2">
                                 <span class="w-fit">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
@@ -1530,7 +1452,7 @@
                                 industry-recognized expertise in airline and travel agency operations.</p>
                         </li>
 
-                        <li class="flex w-80 max-w-xs flex-col gap-3 divide-y rounded-md border border-gray-300 p-5">
+                        <li class="flex w-80 max-w-xs xl:w-full flex-col gap-3 divide-y rounded-md border border-gray-300 p-5">
                             <div class="flex w-full items-center justify-center gap-2">
                                 <span class="w-fit">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
@@ -1547,7 +1469,7 @@
                                 marketing and operations to sustainable practices and crisis management.</p>
                         </li>
 
-                        <li class="flex w-80 max-w-xs flex-col gap-3 divide-y rounded-md border border-gray-300 p-5">
+                        <li class="flex w-80 max-w-xs xl:w-full flex-col gap-3 divide-y rounded-md border border-gray-300 p-5">
                             <div class="flex w-full items-center justify-center gap-2">
                                 <span class="w-fit">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
@@ -1564,7 +1486,7 @@
                                 industry projects, internships, and simulated exercises.</p>
                         </li>
 
-                        <li class="flex w-80 max-w-xs flex-col gap-3 divide-y rounded-md border border-gray-300 p-5">
+                        <li class="flex w-80 max-w-xs xl:w-full flex-col gap-3 divide-y rounded-md border border-gray-300 p-5">
                             <div class="flex w-full items-center justify-center gap-2">
                                 <span class="w-fit">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
@@ -1581,7 +1503,7 @@
                                 opportunities for future career growth.</p>
                         </li>
 
-                        <li class="flex w-80 max-w-xs flex-col gap-3 divide-y rounded-md border border-gray-300 p-5">
+                        <li class="flex w-80 max-w-xs xl:w-full flex-col gap-3 divide-y rounded-md border border-gray-300 p-5">
                             <div class="flex w-full items-center justify-center gap-2">
                                 <span class="w-fit">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
@@ -1598,7 +1520,7 @@
                                 operations, preparing graduates for a worldwide career.</p>
                         </li>
 
-                        <li class="flex w-80 max-w-xs flex-col gap-3 divide-y rounded-md border border-gray-300 p-5">
+                        <li class="flex w-80 max-w-xs xl:w-full flex-col gap-3 divide-y rounded-md border border-gray-300 p-5">
                             <div class="flex w-full items-center justify-center gap-2">
                                 <span class="w-fit">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
@@ -1615,7 +1537,7 @@
                                 bookings, and digital marketing.</p>
                         </li>
 
-                        <li class="flex w-80 max-w-xs flex-col gap-3 divide-y rounded-md border border-gray-300 p-5">
+                        <li class="flex w-80 max-w-xs xl:w-full flex-col gap-3 divide-y rounded-md border border-gray-300 p-5">
                             <div class="flex w-full items-center justify-center gap-2">
                                 <span class="w-fit">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
@@ -1632,7 +1554,7 @@
                                 opportunities to connect students with potential employers.</p>
                         </li>
 
-                        <li class="flex w-80 max-w-xs flex-col gap-3 divide-y rounded-md border border-gray-300 p-5">
+                        <li class="flex w-80 max-w-xs xl:w-full flex-col gap-3 divide-y rounded-md border border-gray-300 p-5">
                             <div class="flex w-full items-center justify-center gap-2">
                                 <span class="w-fit">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
@@ -3241,139 +3163,6 @@
             </div>
         </section>
 
-        <!-- <section id="Student-Testimonial" class="flex w-full">
-            <div class="flex flex-col w-full px-5 py-8 md:py-10  lg:py-12  gap-5 lg:gap-7 xl:gap-10 max-w-7xl mx-auto">
-                <div class="flex flex-col w-fit  sm:items-center sm:justify-center md:mx-auto">
-                    <h2
-                        class="flex flex-wrap w-full items-center justify-left sm:justify-center underline decoration-brand-red decoration-4 underline-offset-4 font-bold text-xl sm  :text-2xl lg:text-3xl  shimmer-effect2">
-                        Here's an inside look at ITM Skills University
-                    </h2>
-                </div>
-                <div class="flex w-full overflow-x-scroll pb-3 card-scroll items-start">
-                    <div id="list" class="flex w-auto gap-3 lg:gap-5">
-                    </div>
-                </div>
-
-            </div>
-        </section> -->
-
-        <!-- <section id="Blogs" class="flex w-full h-auto">
-            <div
-                class="flex flex-col max-w-7xl px-5 py-8 md:py-10  gap-5  md:gap-5 lg:gap-7 xl:gap-10 w-full h-full  mx-auto">
-
-                <div class="flex flex-col w-full  md:items-center md:justify-center">
-                    <h2
-                        class="flex w-full items-center justify-left md:justify-center text-black font-bold text-xl md:text-2xl shimmer-effect2">
-                        Blogs
-                    </h2>
-                </div>
-
-                <div class="bg-white ">
-                    <div
-                        class="flex card-scroll h-auto items-center justify-between overflow-x-auto overflow-y-hidden w-full ">
-                        <div
-                            class="flex h-full gap-3 items-stretch py-3 justify-around lg:grid lg:grid-cols-3 lg:w-fit lg:mx-auto">
-                            <article class="flex flex-col w-80 items-start justify-between shadow-md rounded-2xl">
-                                <div class="relative w-full">
-                                    <img loading="lazy"
-                                        src="https://dg1xqmhtoint1.cloudfront.net/img/pgdm/blog/photoshoot/pgdm-15.webp?mtime=20230127170758&focal=none"
-                                        alt=""
-                                        class="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]">
-                                    <div class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
-                                </div>
-                                <div class="max-w-xl w-full px-5 py-5">
-                                    <div class="flex items-center gap-x-4 text-xs">
-                                        <time datetime="2023-07-03" class="text-gray-500">July 03, 2023</time>
-                                      
-                                    </div>
-                                    <div class="group relative">
-                                        <h3
-                                            class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                                            <a
-                                                href="https://www.itm.edu/blog/pgdm-why-pursue-pgdm-job-prospects-for-a-student-1">
-                                                <span class="absolute inset-0"></span>
-                                                Why Pursue PGDM: Job Prospects For a Student
-                                            </a>
-                                        </h3>
-                                        <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
-                                            Pursuing a Post Graduate Diploma in Management (PGDM) can be a
-                                            transformative and rewarding experience for individuals seeking to</p>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="flex flex-col w-80 items-start justify-between shadow-md rounded-2xl">
-                                <div class="relative w-full">
-                                    <img loading="lazy"
-                                        src="https://dg1xqmhtoint1.cloudfront.net/img/pgdm/blog/photoshoot/pgdm-20.webp?mtime=20230127170759&focal=none"
-                                        alt=""
-                                        class="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]">
-                                    <div class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
-                                </div>
-                                <div class="max-w-xl w-full px-5 py-5">
-                                    <div class="flex items-center gap-x-4 text-xs">
-                                        <time datetime="2023-06-30" class="text-gray-500">Jun 30, 2023</time>
-                                         <a href="https://www.itm.edu/blog/pgdm-the-role-of-pgdm-courses-in-enhancing-career-prospects"
-                                            class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Marketing</a> 
-                                    </div>
-                                    <div class="group relative">
-                                        <h3
-                                            class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                                            <a
-                                                href="https://www.itm.edu/blog/pgdm-the-role-of-pgdm-courses-in-enhancing-career-prospects">
-                                                <span class="absolute inset-0"></span>
-                                                The Role of PGDM Courses in Enhancing Career Prospects
-                                            </a>
-                                        </h3>
-                                        <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
-                                            In today's fiercely competitive job market, where employers seek individuals
-                                            with specialised skills and expertise, the role of postgraduate</p>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="flex flex-col w-80 items-start justify-between shadow-md rounded-2xl">
-                                <div class="relative w-full">
-                                    <img loading="lazy"
-                                        src="https://dg1xqmhtoint1.cloudfront.net/img/pgdm/blog/photoshoot/pgdm-8.webp?mtime=20230127170753&focal=none"
-                                        alt=""
-                                        class="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]">
-                                    <div class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
-                                </div>
-                                <div class="max-w-xl w-full px-5 py-5">
-                                    <div class="flex items-center gap-x-4 text-xs">
-                                        <time datetime="2023-06-30" class="text-gray-500">Jun 30, 2023</time>
-                                        <a href="https://www.itm.edu/blog/pgdm-pgdm-fees-are-an-investment-for-your-career"
-                                            class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Marketing</a> 
-                                    </div>
-                                    <div class="group relative">
-                                        <h3
-                                            class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                                            <a
-                                                href="https://www.itm.edu/blog/pgdm-pgdm-fees-are-an-investment-for-your-career">
-                                                <span class="absolute inset-0"></span>
-                                                PGDM Fees are an INVESTMENT for your career.
-                                            </a>
-                                        </h3>
-                                        <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">PGDM fees are
-                                            calculated based on several factors that contribute to the overall cost of
-                                            delivering the program.</p>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex w-full">
-                    <a href="https://www.itm.edu/blog/pgdm"
-                        class="flex w-fit h-auto gap-2 mx-auto rounded-md py-2 px-5 bg-brand-red text-white items-center justify-center shimmer-effect2">
-                        <span class="flex ">Read More</span>
-                        <ion-icon class="text-xl flex" name="arrow-forward"></ion-icon>
-                    </a>
-                </div>
-
-
-            </div>
-        </section> -->
-
         <hr class="max-w-7xl mx-auto w-full">
 
         <section id="FAQ" class="flex h-auto w-full">
@@ -3636,6 +3425,28 @@
             </div>
         </section>
 
+
+        <section
+            class="popup-overlay hidden fixed z-50 bg-black bg-opacity-50 top-0 left-0 w-full h-full mx-auto items-center justify-center"
+            id="popup">
+            <div class="popup-content flex relative items-center w-full h-full justify-center mx-auto  "
+                id="popup-content">
+                <div class="flex w-full aspect-16/9 max-w-4xl rounded-md">
+                    <iframe id="videoFrame" src="" class="flex aspect-video rounded-md" frameborder="0"
+                        allowfullscreen></iframe>
+                </div>
+                <button onclick="closePopup()"
+                    class="close-btn inside-shadow flex absolute h-[50px] w-[50px] items-center justify-center text-3xl bg-white text-bold rounded-md top-0 right-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                        class="w-6 h-6 text-brand-red">
+                        <path fill-rule="evenodd"
+                            d="M5.47 5.47a.75.75 0 011.06 0L12 10.94l5.47-5.47a.75.75 0 111.06 1.06L13.06 12l5.47 5.47a.75.75 0 11-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 01-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 010-1.06z"
+                            clip-rule="evenodd" />
+                    </svg>
+
+                </button>
+            </div>
+        </section>
 
 
     </main>

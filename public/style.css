@@ -710,6 +710,11 @@ video {
   margin: 2.5rem;
 }
 
+.mx-0{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 .mx-10{
   margin-left: 2.5rem;
   margin-right: 2.5rem;
@@ -821,8 +826,16 @@ video {
   aspect-ratio: 16 / 9;
 }
 
+.aspect-16\/9{
+  aspect-ratio: 960 / 540;
+}
+
 .h-1{
   height: 0.25rem;
+}
+
+.h-1\/2{
+  height: 50%;
 }
 
 .h-10{
@@ -893,6 +906,10 @@ video {
   height: 450px;
 }
 
+.h-\[600px\]{
+  height: 600px;
+}
+
 .h-auto{
   height: auto;
 }
@@ -910,6 +927,10 @@ video {
   height: 100vh;
 }
 
+.h-\[50px\]{
+  height: 50px;
+}
+
 .max-h-14{
   max-height: 3.5rem;
 }
@@ -920,10 +941,6 @@ video {
 
 .max-h-96{
   max-height: 24rem;
-}
-
-.max-h-\[700px\]{
-  max-height: 700px;
 }
 
 .w-1{
@@ -1037,6 +1054,10 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-\[50px\]{
+  width: 50px;
 }
 
 .max-w-4xl{
@@ -1342,6 +1363,11 @@ video {
   border-width: 2px;
 }
 
+.border-brand-red{
+  --tw-border-opacity: 1;
+  border-color: rgb(169 29 84 / var(--tw-border-opacity));
+}
+
 .border-gray-300{
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
@@ -1420,20 +1446,36 @@ video {
   --tw-bg-opacity: 0.3;
 }
 
-.bg-hero-img{
-  background-image: url('./assets/img/hero-img2.webp');
+.bg-opacity-50{
+  --tw-bg-opacity: 0.5;
 }
 
-.bg-hero-img1{
-  background-image: url('./assets/banner/marketing-management-banner.webp');
+.bg-bbafs-desk-hero-img{
+  background-image: url('assets/hero-img/bba-fs-desk.webp');
+}
+
+.bg-bbafs-mob-hero-img{
+  background-image: url('assets/hero-img/bba-fs-mob.webp');
+}
+
+.bg-bbaittm-desk-hero-img{
+  background-image: url('assets/hero-img/bba-ittm-desk.webp');
+}
+
+.bg-bbaittm-mob-hero-img{
+  background-image: url('assets/hero-img/bba-ittm-mob.webp');
 }
 
 .bg-stamp-05{
-  background-image: url('./assets/img/stamp-05.webp');
+  background-image: url('assets/img/stamp-05.webp');
 }
 
 .bg-\[length\:40px_40px\]{
   background-size: 40px 40px;
+}
+
+.bg-\[length\:auto_60\%\]{
+  background-size: auto 60%;
 }
 
 .bg-contain{
@@ -1444,8 +1486,8 @@ video {
   background-size: cover;
 }
 
-.bg-\[center_left_20\%\]{
-  background-position: center left 20%;
+.bg-bottom{
+  background-position: bottom;
 }
 
 .bg-center{
@@ -1655,12 +1697,24 @@ video {
   padding-right: 0.75rem;
 }
 
+.pt-16{
+  padding-top: 4rem;
+}
+
 .pt-2{
   padding-top: 0.5rem;
 }
 
+.pt-24{
+  padding-top: 6rem;
+}
+
 .pt-3{
   padding-top: 0.75rem;
+}
+
+.text-left{
+  text-align: left;
 }
 
 .text-center{
@@ -1677,6 +1731,10 @@ video {
 
 .font-hm-sans{
   font-family: HM Sans Regular, sans-serif;
+}
+
+.font-sans{
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .text-2xl{
@@ -2095,7 +2153,7 @@ details[open] div ul li details[open] summary span ion-icon {
   display: flex;
   height: 100%;
   width: 100%;
-  background-image: url('./assets/img/grid-img.webp');
+  background-image: url('assets/img/grid-img.webp');
   background-size: 200px 200px;
   background-position: left -20% bottom 10%;
   background-repeat: no-repeat;
@@ -2233,14 +2291,6 @@ details[open] div ul li details[open] summary span ion-icon {
 }
 
 @media (min-width: 768px){
-  .md\:relative{
-    position: relative;
-  }
-
-  .md\:bottom-0{
-    bottom: 0px;
-  }
-
   .md\:top-0{
     top: 0px;
   }
@@ -2257,17 +2307,9 @@ details[open] div ul li details[open] summary span ion-icon {
     grid-column: span 2 / span 2;
   }
 
-  .md\:col-span-3{
-    grid-column: span 3 / span 3;
-  }
-
   .md\:mx-auto{
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .md\:mt-20{
-    margin-top: 5rem;
   }
 
   .md\:flex{
@@ -2335,10 +2377,6 @@ details[open] div ul li details[open] summary span ion-icon {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .md\:grid-cols-7{
-    grid-template-columns: repeat(7, minmax(0, 1fr));
-  }
-
   .md\:flex-row{
     flex-direction: row;
   }
@@ -2379,12 +2417,6 @@ details[open] div ul li details[open] summary span ion-icon {
     gap: 1.25rem;
   }
 
-  .md\:divide-x > :not([hidden]) ~ :not([hidden]){
-    --tw-divide-x-reverse: 0;
-    border-right-width: calc(1px * var(--tw-divide-x-reverse));
-    border-left-width: calc(1px * calc(1 - var(--tw-divide-x-reverse)));
-  }
-
   .md\:divide-y-0 > :not([hidden]) ~ :not([hidden]){
     --tw-divide-y-reverse: 0;
     border-top-width: calc(0px * calc(1 - var(--tw-divide-y-reverse)));
@@ -2410,11 +2442,6 @@ details[open] div ul li details[open] summary span ion-icon {
     padding-bottom: 2.5rem;
   }
 
-  .md\:py-24{
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-  }
-
   .md\:pr-3{
     padding-right: 0.75rem;
   }
@@ -2436,11 +2463,6 @@ details[open] div ul li details[open] summary span ion-icon {
   .md\:text-base{
     font-size: 1rem;
     line-height: 1.5rem;
-  }
-
-  .md\:text-lg{
-    font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 
   .md\:text-sm{
@@ -2470,13 +2492,14 @@ details[open] div ul li details[open] summary span ion-icon {
     grid-column: span 3 / span 3;
   }
 
+  .lg\:mx-0{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .lg\:mx-auto{
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .lg\:mt-24{
-    margin-top: 6rem;
   }
 
   .lg\:flex{
@@ -2497,6 +2520,15 @@ details[open] div ul li details[open] summary span ion-icon {
 
   .lg\:h-20{
     height: 5rem;
+  }
+
+  .lg\:h-fit{
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+
+  .lg\:max-h-\[900px\]{
+    max-height: 900px;
   }
 
   .lg\:w-20{
@@ -2520,6 +2552,10 @@ details[open] div ul li details[open] summary span ion-icon {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
+  .lg\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .lg\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -2530,6 +2566,22 @@ details[open] div ul li details[open] summary span ion-icon {
 
   .lg\:grid-cols-7{
     grid-template-columns: repeat(7, minmax(0, 1fr));
+  }
+
+  .lg\:flex-row{
+    flex-direction: row;
+  }
+
+  .lg\:items-start{
+    align-items: flex-start;
+  }
+
+  .lg\:justify-start{
+    justify-content: flex-start;
+  }
+
+  .lg\:justify-center{
+    justify-content: center;
   }
 
   .lg\:gap-10{
@@ -2544,10 +2596,35 @@ details[open] div ul li details[open] summary span ion-icon {
     gap: 1.75rem;
   }
 
+  .lg\:gap-8{
+    gap: 2rem;
+  }
+
   .lg\:divide-x > :not([hidden]) ~ :not([hidden]){
     --tw-divide-x-reverse: 0;
     border-right-width: calc(1px * var(--tw-divide-x-reverse));
     border-left-width: calc(1px * calc(1 - var(--tw-divide-x-reverse)));
+  }
+
+  .lg\:bg-bbafs-desk-hero-img{
+    background-image: url('assets/hero-img/bba-fs-desk.webp');
+  }
+
+  .lg\:bg-bbaittm-desk-hero-img{
+    background-image: url('assets/hero-img/bba-ittm-desk.webp');
+  }
+
+  .lg\:bg-\[length\:auto_100\%\]{
+    background-size: auto 100%;
+  }
+
+  .lg\:bg-\[bottom_center\]{
+    background-position: bottom center;
+  }
+
+  .lg\:py-10{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
   }
 
   .lg\:py-12{
@@ -2555,23 +2632,38 @@ details[open] div ul li details[open] summary span ion-icon {
     padding-bottom: 3rem;
   }
 
+  .lg\:pt-24{
+    padding-top: 6rem;
+  }
+
+  .lg\:text-left{
+    text-align: left;
+  }
+
   .lg\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
-  }
-
-  .lg\:text-4xl\+{
-    font-size: 36px;
-    line-height: 40px;
   }
 
   .lg\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
+
+  .lg\:font-extrabold{
+    font-weight: 800;
+  }
 }
 
 @media (min-width: 1280px){
+  .xl\:flex{
+    display: flex;
+  }
+
+  .xl\:w-full{
+    width: 100%;
+  }
+
   .xl\:grid-cols-4{
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
@@ -2582,5 +2674,10 @@ details[open] div ul li details[open] summary span ion-icon {
 
   .xl\:rounded-md{
     border-radius: 0.375rem;
+  }
+
+  .xl\:text-6xl{
+    font-size: 3.75rem;
+    line-height: 1;
   }
 }

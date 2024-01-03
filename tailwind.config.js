@@ -70,11 +70,15 @@ module.exports = {
         "hm-sans": ["HM Sans Regular", "sans-serif"],
       },
       backgroundImage: {
-        "stamp-05": "url('./assets/img/stamp-05.webp')",
-        "perks-1": "url('./assets/perks-img/perks-1.webp')",
-        "hero-img": "url('./assets/img/hero-img2.webp')",
-        "hero-img1": "url('./assets/banner/marketing-management-banner.webp')",
-        "grid-img": "url('./assets/img/grid-img.webp')",
+        "stamp-05": "url('assets/img/stamp-05.webp')",
+        "perks-1": "url('assets/perks-img/perks-1.webp')",
+        "grid-img": "url('assets/img/grid-img.webp')",
+        "bbafs-desk-hero-img": "url('assets/hero-img/bba-fs-desk.webp')",
+        "bbafs-mob-hero-img": "url('assets/hero-img/bba-fs-mob.webp')",
+        "bbaittm-desk-hero-img": "url('assets/hero-img/bba-ittm-desk.webp')",
+        "bbaittm-mob-hero-img": "url('assets/hero-img/bba-ittm-mob.webp')",
+
+        
       },
       backgroundColor: {
         "modal-dark-fade": "rgba(0, 0, 0, 0.4)",
